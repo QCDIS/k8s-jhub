@@ -8,12 +8,12 @@ body {
 /* html {overflow: hidden;} */
 
 body {
-	background: url(https://cdn.jsdelivr.net/gh/QCDIS/k8s-jhub@eciss-22/static/images/ISS2022_banner_final-2048x774.png);
+	background: url(https://raw.githubusercontent.com/QCDIS/k8s-jhub/laserfarm/static/images/laserfarm_backround.png);
 	background-repeat: no-repeat;
 	font-family: Arial, sans-serif;
 	font-size: 14px;
 	padding: 0;
-    background-size: 1024px;
+    background-size: auto;
 	background-position: left;
 }
 
