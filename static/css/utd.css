@@ -13,8 +13,8 @@ body {
 	font-family: Arial, sans-serif;
 	font-size: 14px;
 	padding: 0;
-    background-size: 750px;
-	background-position: left;
+    background-size: contain;
+    background-position: bottom;
 }
 
 a,
@@ -44,8 +44,7 @@ a:hover {
 	vertical-align: middle;
 	text-align: center;
 	max-width: 600px;
-	min-width: 320px;
-	height: 150px;
+	min-width: 300px;
 }
 
 .loginTable {
@@ -55,9 +54,7 @@ a:hover {
     background: linear-gradient(180deg, rgba(15,78,138,255) 0%, rgba(15,78,138,255) 100%);
 	box-shadow: 0 0 15px 0 #6e6e6e;
 	color: #5a0202;
-	max-width: 600px;
-	min-width: 320px;
-	height: 150px;
+	position: absolute; top: 0px;
 }
 
 .loginTableRow {
