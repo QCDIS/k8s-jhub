@@ -8,25 +8,25 @@ body {
 /* html {overflow: hidden;} */
 
 body {
-	background: url(https://storage.googleapis.com/utd/assets/bg.jpg);
+	background: url(https://www.lifewatch.eu/wp-content/uploads/2023/06/minisite-banner-2048x773.png);
 	background-repeat: no-repeat;
 	font-family: Arial, sans-serif;
 	font-size: 14px;
 	padding: 0;
-        background-size: cover;
-		background-position: center;
+    background-size: 1024px;
+	background-position: left;
 }
 
 a,
 a:active,
 a:focus,
 a:visited {
-	color: #008542;
+	color: #0f4e8a;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #008542;
+	color: #800075;
 	text-decoration: underline;
 }
 
@@ -39,13 +39,22 @@ a:hover {
 	align-items: center;
 }
 
+.space {
+	display: table;
+	vertical-align: middle;
+	text-align: center;
+	max-width: 600px;
+	min-width: 320px;
+	height: 150px;
+}
+
 .loginTable {
 	display: table;
 	vertical-align: middle;
 	text-align: center;
-    background: linear-gradient(180deg, rgb(0, 114, 78) 0%, rgb(21, 71, 52) 100%);
+    background: linear-gradient(180deg, rgba(15,78,138,255) 0%, rgba(15,78,138,255) 100%);
 	box-shadow: 0 0 15px 0 #6e6e6e;
-	color: #3e3e3e;
+	color: #5a0202;
 	max-width: 600px;
 	min-width: 320px;
 	height: 150px;
@@ -53,7 +62,7 @@ a:hover {
 
 .loginTableRow {
 	display: table;
-	background-color: #fefefe;
+	background-color: #f3f3f3;
 }
 
 .contentLeft,
@@ -120,7 +129,7 @@ a:hover {
 }
 
 #netid, #username_input, #password_input, #password {
-	border: 1px solid #b7b1a9;
+	border: 1px solid #7a0000;
 	padding: 10px;
 	width: 170px;
 	text-align: left;
@@ -134,7 +143,7 @@ a:hover {
 	border: none;
 	display: inline-block;
 	background: linear-gradient(180deg, rgba(0, 114, 78, 1) 0%, rgba(21, 71, 52, 1) 100%);
-	color: #fff;
+	color: #f3f3f3;
 	border-radius: 5px;
 }
 
@@ -150,7 +159,7 @@ a:hover {
 	width: 100%;
 	font-size: 12px;
 	text-align: center;
-	background-color: #fefefe;
+	background-color: #b30027;
         padding: 0 !important;
         margin: 0 !important;
 }
@@ -217,4 +226,78 @@ body > noscript{
 } 
 body > nav.navbar{
 	display: none !important;
+}
+
+
+/*!
+*
+* Jupyter
+*
+*/
+
+.btn-jupyter {
+    color: #fff;
+    background-color: #0f4e8a;
+    border-color: #0f4e8a;
+	font-size: xx-large;
+	padding: 10 30px;
+}
+
+.btn-jupyter.focus,
+.btn-jupyter:focus {
+    color: #fff;
+    background-color: #0f4e8a;
+    border-color: #76270f
+}
+
+.btn-jupyter:hover {
+    color: #fff;
+    background-color: #0f4e8a;
+    border-color: #0f4e8a
+}
+
+.btn-jupyter.active,
+.btn-jupyter:active,
+.open > .dropdown-toggle.btn-jupyter {
+    color: #fff;
+    background-color: #0f4e8a;
+    border-color: #0f4e8a
+}
+
+.btn-jupyter.active.focus,
+.btn-jupyter.active:focus,
+.btn-jupyter.active:hover,
+.btn-jupyter:active.focus,
+.btn-jupyter:active:focus,
+.btn-jupyter:active:hover,
+.open > .dropdown-toggle.btn-jupyter.focus,
+.open > .dropdown-toggle.btn-jupyter:focus,
+.open > .dropdown-toggle.btn-jupyter:hover {
+    color: #fff;
+    background-color: #b64d0a;
+    border-color: #76270f
+}
+
+.btn-jupyter.active,
+.btn-jupyter:active,
+.open > .dropdown-toggle.btn-jupyter {
+    background-image: none
+}
+
+.btn-jupyter.disabled.focus,
+.btn-jupyter.disabled:focus,
+.btn-jupyter.disabled:hover,
+.btn-jupyter[disabled].focus,
+.btn-jupyter[disabled]:focus,
+.btn-jupyter[disabled]:hover,
+fieldset[disabled] .btn-jupyter.focus,
+fieldset[disabled] .btn-jupyter:focus,
+fieldset[disabled] .btn-jupyter:hover {
+    background-color: #F37524;
+    border-color: #E34F21
+}
+
+.btn-jupyter .badge {
+    color: #F37524;
+    background-color: #fff
 }
