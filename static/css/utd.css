@@ -236,7 +236,7 @@ body > nav.navbar{
 */
 
 .btn-jupyter {
-    color: #fff;
+    color: #fff !important;
     background-color: #0f4e8a;
     border-color: #0f4e8a;
 	font-size: xx-large;
