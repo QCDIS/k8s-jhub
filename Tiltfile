@@ -5,7 +5,7 @@ load('ext://helm_resource', 'helm_resource')
 helm_resource(
   'jupyterhub-custom',
   labels=['NaaVRE-jupyter'],
-  chart='https://jupyterhub.github.io/helm-chart/jupyterhub-3.3.7.tgz',
+  chart='https://jupyterhub.github.io/helm-chart/jupyterhub-4.1.0.tgz',
   flags=[
     '--values=./helm-values.yaml',
     ],

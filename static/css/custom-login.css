@@ -1,0 +1,90 @@
+body {
+    background: url(../images/background_login_page.png) no-repeat center;
+    background-size: cover;
+}
+
+#login-main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginTable {
+    text-align: center;
+    background: #f3f3f3;
+    box-shadow: 0 0 15px 0 #6e6e6e;
+    max-width: 600px;
+    min-width: 320px;
+}
+
+.loginTable {
+    margin-left: 640px;
+}
+
+.contentLeft,
+.contentRight {
+    vertical-align: middle;
+    display: table-cell;
+    padding: 30px;
+}
+
+@media screen and (max-width: 1420px) {
+    .loginTable {
+        margin-left: 320px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .loginTable {
+        margin-left: 0;
+    }
+
+    .contentLeft,
+    .contentRight {
+        display: table-row;
+        width: 100%;
+    }
+
+}
+
+.contentLeft {
+    width: 300px;
+}
+
+.contentLeft img {
+    width: 220px;
+}
+
+.contentRight .service-login {
+    padding: 50px;
+}
+
+.contentRight {
+    width: 320px;
+}
+
+.contentRight .btn-jupyter {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0f4e8a;
+    --bs-btn-border-color: #003b74;
+    --bs-btn-hover-bg: #2D5C8A;
+    --bs-btn-hover-border-color: #002257;
+    --bs-btn-active-bg: #2D5C8A;
+    --bs-btn-active-border-color: #002257;
+    --bs-btn-disabled-bg: #0f4e8a;
+    --bs-btn-disabled-border-color: #003b74;
+}
+
+.bookmarkMessage {
+    color: #fff;
+    text-align: center;
+    padding: 16px 100px;
+    background: rgba(15, 78, 138, 255);
+}
+
+.bookmarkMessage h3 {
+    font-family: Arial, sans-serif;
+    font-size: 1.17rem;
+    font-weight: bold;
+    margin: 0;
+}
